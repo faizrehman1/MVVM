@@ -1,4 +1,4 @@
-package com.example.mvvmwithdatabingding;
+package com.example.mvvmwithdatabinding;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

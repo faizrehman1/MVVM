@@ -1,9 +1,9 @@
-package com.example.mvvmwithdatabingding.viewmodel;
+package com.example.mvvmwithdatabinding.viewmodel;
 
 import android.databinding.BaseObservable;
 
-import com.example.mvvmwithdatabingding.R;
-import com.example.mvvmwithdatabingding.model.User;
+import com.example.mvvmwithdatabinding.R;
+import com.example.mvvmwithdatabinding.model.User;
 
 public class UserModel extends BaseObservable {
 

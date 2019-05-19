@@ -1,4 +1,4 @@
-package com.example.mvvmwithdatabingding.commands;
+package com.example.mvvmwithdatabinding.commands;
 
 public interface UserLogin {
     public void onClickLogin();

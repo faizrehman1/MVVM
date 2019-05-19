@@ -1,4 +1,4 @@
-package com.example.mvvmwithdatabingding.model;
+package com.example.mvvmwithdatabinding.model;
 
 public class User {
 

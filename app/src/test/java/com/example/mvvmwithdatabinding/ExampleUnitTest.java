@@ -1,4 +1,4 @@
-package com.example.mvvmwithdatabingding;
+package com.example.mvvmwithdatabinding;
 
 import org.junit.Test;
 

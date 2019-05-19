@@ -1,6 +1,6 @@
-package com.example.mvvmwithdatabingding.viewmodel;
+package com.example.mvvmwithdatabinding.viewmodel;
 
-import com.example.mvvmwithdatabingding.model.News;
+import com.example.mvvmwithdatabinding.model.News;
 
 import java.util.ArrayList;
 

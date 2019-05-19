@@ -1,4 +1,4 @@
-package com.example.mvvmwithdatabingding.adapter;
+package com.example.mvvmwithdatabinding.adapter;
 
 import android.content.Context;
 import android.databinding.DataBindingUtil;
@@ -6,11 +6,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
-import com.example.mvvmwithdatabingding.R;
-import com.example.mvvmwithdatabingding.databinding.ListItemBinding;
-import com.example.mvvmwithdatabingding.viewmodel.NewsModel;
+import com.example.mvvmwithdatabinding.R;
+import com.example.mvvmwithdatabinding.databinding.ListItemBinding;
+import com.example.mvvmwithdatabinding.viewmodel.NewsModel;
 
 import java.util.ArrayList;
 
@@ -26,6 +25,15 @@ public class NewsListAdapter extends ArrayAdapter<NewsModel> {
         this.mContext = context;
     }
 
+    @Override
+    public int getCount() {
+        return newsModelArrayList.size();
+    }
+
+    @Override
+    public NewsModel getItem(int position) {
+        return newsModelArrayList.get(position);
+    }
 
     @Override
     public View getView(int position, View convertView,ViewGroup parent) {
